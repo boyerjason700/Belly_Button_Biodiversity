@@ -110,7 +110,7 @@ function buildCharts(sample) {
     var barLayout = {
      title: "<b>Top 10 Bacteria Cultures Found<b>",
      font: {
-       family: "Nunito Sans",
+       family: 'Courier New, monospace',
        size: 14
      }
     };
@@ -129,7 +129,7 @@ function buildCharts(sample) {
       marker : {
         size : sampleValues,
         color : otu_Ids,
-        colorscale : "earth"
+        colorscale : "Earth"
       }
     }];
 
@@ -139,7 +139,7 @@ function buildCharts(sample) {
       xaxis: {title: "OTU ID"},
       hovermode: "closest",
       font: {
-        family: "Nunito Sans",
+        family: 'Courier New, monospace',
         size: 18
       }
     };
@@ -159,11 +159,11 @@ function buildCharts(sample) {
           bar: {color: "black"},
           axis: {range: [null, 10]},
           steps: [
-            {range: [0, 2], color: "red"},
-            {range: [2, 4], color: "orange"},
-            {range: [4, 6], color: "yellow"},
-            {range: [6, 8], color: "lightgreen"},
-            {range: [8, 10], color: "green"}]
+            {range: [0, 2], color: "rgb(168,182,195)"},
+            {range: [2, 4], color: "rgb(169,221,241)"},
+            {range: [4, 6], color: "rgb(96,196,237)"},
+            {range: [6, 8], color: "lrgb(54,164,237)"},
+            {range: [8, 10], color: "grgb(12,60,140)"}]
         }
       }
     ];
@@ -174,8 +174,8 @@ function buildCharts(sample) {
       height: 500, 
       margin: { t: 0, b: 0 },
       font: {
-        family: "Nunito Sans",
-        size: 20
+        family: 'Courier New, monospace',
+        size: 25
       }
     };
 

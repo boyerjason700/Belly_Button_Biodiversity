@@ -1,11 +1,6 @@
-/* .jumbotron {
-    background-image: url("../images/banner.png") fixed center no-repeat;
-    background-size: cover;
+.jumbotron {
+    background-image: url("../images/banner2.png");
+    background-size: 100% 100%;
+    align-items: center;
+}
 
-} */
-
-.unlock-icon {
-    width: 5rem;
-    height: 5rem;
-    text-align: center;
-  }
