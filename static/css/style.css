@@ -1,10 +1,11 @@
-.jumbotron {
-    background-image: url("./images/banner.png");
-    background-size: 100% 100%;
-  }
+/* .jumbotron {
+    background-image: url("../images/banner.png") fixed center no-repeat;
+    background-size: cover;
 
-.h5 {
-    color: rgb(0, 0, 0);
-    font-family: Nunito Sans;
-    font-size: 300%;
-}
+} */
+
+.unlock-icon {
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+  }
